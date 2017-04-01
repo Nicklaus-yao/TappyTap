@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/relativeLayoutFF"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#51b46d"
+                android:padding="50dp"
+                tools:context="com.nykidxxx.tappytap.MainActivity">
+
+    <TextView
+        android:id="@+id/textViewCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:text="0"
+        android:textColor="#80FFFF"
+        android:textSize="80sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/buttonBuyStuff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:text="Buy Stuff"
+        android:textColor="#80FFFFFF"
+        android:textSize="18sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <Button
+        android:id="@+id/buttonPlusOneTap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/buttonBuyStuff"
+        android:background="#00FFFFFF"
+        android:text="--"
+        android:textColor="#80FFFFFF"
+        android:textSize="18sp"/>
+
+</RelativeLayout>
